@@ -1,0 +1,81 @@
+<!-- Paste this into EVERY HTML file and customise the <title> and <main> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- REQUIRED for responsive design on mobile -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Charles Shitandi] — Computing student at [JKUAT]">
+  <title>  Charles Shitandi| Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Skip link: allows keyboard users to skip the nav -->
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">Charles Shitandi</a>
+      <nav aria-label="Main navigation">
+        <ul>
+          <!-- Add class="active" to the current page's link -->
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- PAGE-SPECIFIC CONTENT GOES HERE -->
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; <span id="year"></span> Charles Shitandi — ICS 2215, Dept. of Computing</p>
+    </div>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
+<section class="about-section">
+  <div class="container about-grid">
+
+    <aside>
+      <!-- Profile photo -->
+      <img src="images/profile.jpg"width="250"
+           alt="Charles Shitandi— profile photo"
+           class="profile-<img">
+      <h3> Charles Shitandi</h3>
+      <p class="role">Computing Student, Year 2</p>
+    </aside>
+
+    <div>
+      <h2>About Me</h2>
+      <p>I am a passionate computing student,
+      I love swimming, I want to shape the world of computing.</p>
+
+      <h3>Technical Skills</h3>
+      <ul class="skills-list">
+        <li>Programming</li>
+        <li>coding</li>
+        <li>web design</li>
+        <!-- Add more skills -->
+      </ul>
+
+      <h3>Education</h3>
+      <table>
+        <thead>
+          <tr><th>Qualification</th><th>Institution</th><th>Year</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>BSc Computing</td><td>JKUAT</td><td>2024–Present</td></tr>
+          <tr><td>KCSE</td><td>Starehe Boys</td><td>2023</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
