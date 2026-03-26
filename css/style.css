@@ -9,7 +9,7 @@
 :root {
   --clr-primary:  #000000;  /* Main brand colour — try #065F46 for green */
   --clr-accent:   #E8A020;  /* Highlights and buttons */
-  --clr-text:     #000000;
+  --clr-text:     #FF0000;
   --clr-muted:    #5C6B8A;
   --clr-bg:       #F0F4FC;
   --clr-red:    #ffffff;
