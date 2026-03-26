@@ -7,7 +7,7 @@
 
 /* === 2. CSS CUSTOM PROPERTIES (change these to personalise) === */
 :root {
-  --clr-primary:  #1A3C6E;  /* Main brand colour — try #065F46 for green */
+  --clr-primary:  #FFFFFF;  /* Main brand colour — try #065F46 for green */
   --clr-accent:   #E8A020;  /* Highlights and buttons */
   --clr-text:     #1A1A1A;
   --clr-muted:    #5C6B8A;
